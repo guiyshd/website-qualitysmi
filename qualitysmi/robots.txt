@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /includes/
+
+Sitemap: http://www.DOMINIO_DO_CLIENTE.com.br/sitemap.xml

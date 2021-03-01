@@ -1,0 +1,5 @@
+/* Direitos Texto */
+.direitos-texto{margin-top:15px;padding:5px 10px;background:#f7f7f7}
+.direitos-texto p{font-size:11px;margin:0;color:#717171}
+.direitos-texto p a{color:#888787;text-decoration:none}
+.direitos-texto p a:hover{text-decoration:underline}

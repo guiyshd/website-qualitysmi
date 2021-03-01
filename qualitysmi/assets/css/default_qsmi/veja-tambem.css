@@ -1,0 +1,13 @@
+/* Veja Tambem */
+.veja-tambem h5 {
+    margin:20px 0 5px 0;
+    font-size:18px
+}
+.veja-tambem h6 {
+    margin:8px 0 0 0;
+    line-height:16px
+}
+.veja-tambem h6 a {
+    color:#5a5a5a;
+    font-size:14px
+}

@@ -1,0 +1,108 @@
+/* Tab de regiões */
+.nav {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.nav > li {
+    position:relative;
+    display:block
+}
+.nav > li > a {
+    position:relative;
+    display:block;
+    padding:10px 15px;
+    font-size: 12px;
+    color:#989898
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration:none;
+    background-color:#eee
+}
+.nav > li > a:hover {
+    border-color:#eee #eee #ddd
+}
+.nav > li.disabled > a {
+    color:#777
+}
+.nav > li.disabled > a:focus,.nav > li.disabled > a:hover {
+    color:#777;
+    text-decoration:none;
+    cursor:not-allowed;
+    background-color:transparent
+}
+.nav .open > a,.nav .open > a:focus,.nav .open > a:hover {
+    background-color:#eee;
+    border-color:#337ab7
+}
+.nav-tabs {
+    border-bottom:1px solid #ddd
+}
+.nav-tabs > li {
+    float:left;
+    margin-bottom:-1px
+}
+.nav-tabs > li > a {
+    margin-right:2px;
+    line-height:1.42857143;
+    border:1px solid transparent;
+    border-radius:4px 4px 0 0
+}
+.nav-tabs > li > a:hover {
+    border-color:#eee #eee #ddd
+}
+.nav-tabs > li.active > a,.nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color:#555;
+    cursor:default;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-bottom-color:transparent
+}
+.tab-content > .tab-pane {
+    display:none
+}
+.tab-content > .active {
+    display:block
+}
+.tabs-regioes {
+    margin-top:15px;
+    display:block;
+    border-bottom:1px solid #eee
+}
+.tabs-regioes h3 {
+    margin-top:25px;
+    font-size:18px;
+    color:#5a5a5a;
+}
+.tabs-regioes .tab-content .tab-pane > ul {
+    list-style-type:none;
+    padding:0;
+    display:inline-block;
+}
+.tabs-regioes .tab-content .tab-pane > ul > li {
+    width:33%;
+    float:left;
+    font-size:11px;
+    color:#666;
+}
+@media screen and (max-width: 40em) {
+    .tabs-regioes .tab-content .tab-pane > ul > li {
+        width:50%
+    }
+}
+.action-scroll {
+    padding: 5px 0 5px 12px;
+    cursor: pointer;
+    
+}
+.tabs-regioes {
+    background: linear-gradient(#f4f4f4, #fff);
+    padding: 0;
+    border: solid 1px #eee;
+    border-radius: 6px;
+    box-shadow: -2px 2px 1px #eee;
+}
+
+.scroll-div {
+    padding: 0 10px;
+}

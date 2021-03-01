@@ -1,0 +1,99 @@
+.pesquisa-box {
+    position: relative
+}
+
+.pesquisa-box form {
+    box-sizing: border-box;
+    display: block;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    border: solid 1px #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 2px 2px 3px #f2f2f2;
+}
+
+.pesquisa-box input {
+    width: 250px;
+    max-width: 90%;
+    border: 0px;
+    padding: 5px;
+    background: transparent;
+    vertical-align: middle;
+}
+
+.pesquisa-box button {
+    border: none;
+    opacity: 0.5;
+    transition: all 250ms ease-in;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.8);
+    background: transparent;
+}
+
+.pesquisa-box i {
+    font-size: 1.5em;
+    background: #fff;
+    padding: 5px;
+    vertical-align: middle;
+    background: transparent;
+}
+
+.pesquisa-box-cinza form {
+    background: #f0f0f0;
+}
+
+.pesquisa-box.pesquisa-box-2 form input {
+    width: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.pesquisa-box-2 button {
+    padding-right: 2px;
+}
+
+.enunciado-resultado-pesquisa {
+    border: solid 1px #b7b7b7;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0px 3px 4px #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.lista-thumbs .box-thumb {
+    text-align: center;
+    min-height: 250px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #888888
+}
+
+.lista-thumbs img {
+    display: inline-block
+}
+
+.lista-thumbs h2 {
+    font-size: 12px;
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.lista-thumbs h2 a {
+    text-decoration: none;
+    color: #666
+}
+
+.lista-thumbs h2 a:hover {
+    text-decoration: underline
+}
+
+@media screen and (max-width:40em) {
+    .lista-thumbs .box-thumb {
+        min-height: 210px
+    }
+}

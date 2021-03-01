@@ -1,0 +1,33 @@
+.lista-thumbs .box-thumb {
+    text-align: center;
+    min-height: 250px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #888888
+}
+
+.lista-thumbs img {
+    display: inline-block
+}
+
+.lista-thumbs h2 {
+    font-size: 12px;
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.lista-thumbs h2 a {
+    text-decoration: none;
+    color: #666
+}
+
+.lista-thumbs h2 a:hover {
+    text-decoration: underline
+}
+
+@media screen and (max-width:40em) {
+    .lista-thumbs .box-thumb {
+        min-height: 210px
+    }
+}
